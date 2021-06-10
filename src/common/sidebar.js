@@ -2,6 +2,7 @@ import React from 'react';
 import './sidebarStyle.css';
 
 
+
 export default function Sidebar(props){
 
     {/*All of the possible navigation links on the sidebar*/}
