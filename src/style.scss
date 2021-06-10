@@ -1,0 +1,27 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#root{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.allPageContent{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
