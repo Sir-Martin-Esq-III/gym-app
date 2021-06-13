@@ -7,6 +7,12 @@ export default function Sidebar(props){
 
     {/*All of the possible navigation links on the sidebar*/}
     const sidebarnavItems=["1rm calculator","Progress Tracker","Todays workout","News"]
+    
+    {/*Will be used to pass the value of the current tab */}
+    const onclickHandler=(e,name)=>{
+        e.preventDefault()
+        props.Tabcallback(name)
+    }
 
     return(
         <div className="sidebar">
@@ -18,7 +24,7 @@ export default function Sidebar(props){
             <div className="sidebar-nav">
                 <ul>
                     {sidebarnavItems.map((item)=>
-                        <li key={item}>
+                        <li key={item} onClick={(e)=>{onclickHandler(e,item)}}>
                             <a href="">{item}</a>
                         </li>
 
