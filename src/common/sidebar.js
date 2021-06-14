@@ -6,7 +6,7 @@ import './sidebarStyle.css';
 export default function Sidebar(props){
 
     {/*All of the possible navigation links on the sidebar*/}
-    const sidebarnavItems=["1rm calculator","Progress Tracker","Todays workout","News"]
+    const sidebarnavItems=["1rm calculator","Progress Tracker","Todays workout"]
     
     {/*Will be used to pass the value of the current tab */}
     const onclickHandler=(e,name)=>{

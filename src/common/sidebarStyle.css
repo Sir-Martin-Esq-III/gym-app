@@ -95,4 +95,8 @@
 .sidebar .sidebar-nav ul li:hover a, .sidebar .sidebar-nav ul li:focus a {
   color: white;
 }
+
+.sidebar .sidebar-nav ul li:last-child:hover {
+  border-radius: 0 0 0 20px;
+}
 /*# sourceMappingURL=sidebarStyle.css.map */

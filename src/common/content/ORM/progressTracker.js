@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Line } from 'react-chartjs-2';
 
 export default function ProgressTracker(props){
     {/*Literally just make a function to create each dataset object add it to the data object */}
     {/*But this is hardcoded for moment to tests */}
+
+    const {graphData,setGraphData}=useState([65, 70, 75, 80, 85, 90, 100],[],[]);
+    const graphCallbackFunction=()=>{   
+    }
+
     const data = {
         labels: "1234567",
         datasets: [{
@@ -12,12 +17,12 @@ export default function ProgressTracker(props){
           fill: false,
           borderColor: 'rgb(75, 192, 192)',
           borderWidth:10,
-          tension: 0.1
+          tension: 0.5
         },
         {
             label: 'Deadlift',
             data: [100, 105, 110, 110, 120, 140, 150],
-            fill: true,
+            fill: false,
             borderColor: "#88FFBC",
             borderWidth:10,
             tension: 0.5
@@ -28,7 +33,7 @@ export default function ProgressTracker(props){
             fill: false,
             borderColor: "#FF8888",
             borderWidth:10,
-            tension: 0.1
+            tension: 0.5
           },
 
           
@@ -39,7 +44,7 @@ export default function ProgressTracker(props){
 
     return(
         <div>
-        <Line data={data} className="Graph" style={{width:"100%"}}/>
+        <Line data={data} className="Graph" style={{width:"100%", height:"75%"}}/>
         <h1>This is the Progress Tracker display component, clearly it isnt here yet</h1>
         </div>
     )
