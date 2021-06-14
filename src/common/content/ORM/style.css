@@ -6,22 +6,50 @@ div {
 }
 
 div form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 100%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  height: 75%;
+  grid-gap: 5%;
 }
 
 div form section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1CE493;
+  border-radius: 20px;
+  margin: 10%;
+  font-size: 2em;
+  color: white;
+  font-weight: 700;
+}
+
+div form section input [type=submit] {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
+}
+
+div form section section:nth-child(2), div form section section:nth-child(3) {
+  background-color: #4764D6;
 }
 /*# sourceMappingURL=style.css.map */

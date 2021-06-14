@@ -32,14 +32,14 @@ export default function OneRepMaxCalc(){
         <div>
         <form onSubmit={submitHandler}>
             <section>
-                <label for="weight">The weight you used (in KG): </label>
+                <label for="weight">Weight: </label>
                 <input type ="number" min="1" max="500" id="weight" name="weight" onChange={(event)=>setCurrentWeight(Number(event.target.value))}></input>
                
             </section>
 
             {/*Is there not a better way to do this? */}
             <section>
-            <label for="reps">The amount of reps you performed:</label>
+            <label for="reps">Reps:</label>
             <select type ="reps" id="reps" name="reps" onChange={(event)=>setReps(event.target.value)}>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -56,7 +56,7 @@ export default function OneRepMaxCalc(){
             </section>
 
             <section>
-            <label for="rpe"><span>R</span>ate of <span>P</span>ercived <span>E</span>xhaustion</label>
+            <label for="rpe">RPE: </label>
             <select type ="rpe" id="rpe" name="rpe" onChange={(event)=>setRpe(event.target.value)}>
                 <option value="7">7     </option>
                 <option value="7.5">7.5 </option>
@@ -69,14 +69,15 @@ export default function OneRepMaxCalc(){
             </select>
             
             </section>
-            <section>
-            <input type="submit" value ="Calculate ORM"></input>
+            <section id="button">
+            <input type="submit" id="button"value ="Calculate ORM"></input>
             </section>
             <p className="Error message">{error}</p>
-            <h2>Your (e)1RM is:{orm}</h2>
+            
 
             
         </form>
+        <h2>Your (e)1RM is:{orm}</h2>
         
         
         </div>
