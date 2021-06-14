@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="allPageContent">
-    <Sidebar Tabcallback={Tabcallback} pfp="https://homepages.cae.wisc.edu/~ece533/images/baboon.png" name="John doe"/>
+    <Sidebar Tabcallback={Tabcallback} pfp="https://d3n8a8pro7vhmx.cloudfront.net/imaginebetter/pages/313/meta_images/original/blank-profile-picture-973460_1280.png?1614051091" name="Tom Martin"/>
     <ContentDisplay tab={currentTab} testContent="This is some test content "/>
     </div>
     )
