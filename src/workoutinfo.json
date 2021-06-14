@@ -1,0 +1,44 @@
+{
+    "Monday":{
+        "1":[{
+            "Name":"BenchPress",
+            "Sets":"1*2-5",
+            "Weight":"90kg",
+            "rpe":"8.5"
+        }],
+        "2":{
+            "Name":"BenchPress",
+            "Sets":"4-5*8-10",
+            "Weight":"70kg",
+            "rpe":"N/A"
+        }
+    },
+    "Tuesday":{
+        "1":{
+            "Name":"Heavy Deadlift",
+            "Sets":"1*2-5",
+            "Weight":"110kg",
+            "rpe":"8.5"
+        },
+        "2":{
+            "Name":"Speed DL",
+            "Sets":"4-10*3",
+            "Weight":"87.5kg",
+            "rpe":"N/A"
+        }
+    },
+    "Wedsnesday":{
+        "1":{
+            "Name":"Incline bench",
+            "Sets":"1*2-5",
+            "Weight":"70kg",
+            "rpe":"8.5"
+        },
+        "2":{
+            "Name":"Incline bench",
+            "Sets":"3-5*5-10",
+            "Weight":"55kg",
+            "rpe":"N/A"
+        }
+    }
+}
