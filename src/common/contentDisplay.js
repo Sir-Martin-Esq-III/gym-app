@@ -1,9 +1,8 @@
 import React from 'react'
 import OneRepMaxCalc from './content/ORM/oneRepMaxCalc'
-import Workout from './content/ORM/workout'
-import ProgressTracker from './content/ORM/progressTracker';
-import News from './content/ORM/news';
-import Welcome from './content/ORM/welcome';
+import Workout from './content/workout/workout'
+import ProgressTracker from './content/ProgTracker/progressTracker';
+import Welcome from './content/welcome';
 
 
 
@@ -30,12 +29,6 @@ export default function ContentDisplay(props){
             return (
                 <div className="content-container">
                     <ProgressTracker/>     
-                </div>
-            )
-        case "News":
-            return (
-                <div className="content-container">
-                    <News/>     
                 </div>
             )
         default:

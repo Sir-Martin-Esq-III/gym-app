@@ -1,0 +1,38 @@
+//Colors
+$squat:#FF8888;
+$dead:#88FFBC;
+$bench:rgb(75, 192, 192);
+
+
+//Fonts
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    .graph-container{
+        height: max-content;
+
+    }
+
+    .SBD{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25%;
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            section{
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+            }
+        }
+    }
+}
