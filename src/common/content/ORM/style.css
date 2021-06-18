@@ -49,7 +49,7 @@ div form section input [type=submit] {
   font-weight: 700;
 }
 
-div form section section:nth-child(2), div form section section:nth-child(3) {
+div form section:nth-child(2), div form section:nth-child(3) {
   background-color: #4764D6;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,8 @@ import Sidebar from './common/sidebar'
 import ContentDisplay from './common/contentDisplay'
 import { useState } from 'react';
 
+{/* will use context providers to pass info to the ContentDisplay components */}
+
 
 
 function App() {
