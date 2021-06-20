@@ -59,19 +59,19 @@ export default function ProgressTracker(props){
           <section>
                 <label for="squat">Squat: </label>
                 <input type ="number" min="1" max="500" id="weight" name="weight" onChange={(event)=>setsquatVal(event.target.value)}></input>
-                <AddIcon></AddIcon>
+
                
             </section>
             <section>
                 <label for="weight">Bench: </label>
                 <input type ="number" min="1" max="500" id="weight" name="weight" onChange={(event)=>setbenchVal(event.target.value)}></input>
-                <AddIcon></AddIcon>
+
                
             </section>
             <section>
                 <label for="weight">Deadlift: </label>
                 <input type ="number" min="1" max="500" id="weight" name="weight" onChange={(event)=>setdeadVal(event.target.value)}></input>
-                <AddIcon></AddIcon>
+
 
                
             </section>
