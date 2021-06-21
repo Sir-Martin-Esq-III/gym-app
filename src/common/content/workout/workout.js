@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import workoutinfo from '../../../workoutinfo.json'
+import WorkoutItem from './workoutItem'
+import './workout.css'
 export default function Workout(props){   
 
+    {/*Just need to create a json object with the different arr for each day */}
+    const hardcodedDays=["Monday","Tuesday","Wedneday","Thursday","Friday","Saturday","Sunday"]
+
     return(
-        <h1>This is the workout display component, clearly it isnt here yet</h1>
+        <ul className="workout">
+            {hardcodedDays.map((item)=>
+                        <li key={item} >
+                            <WorkoutItem day={item}/>
+                        </li>
+            )}
+        </ul>
     )
 }

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-//Colors
-$PriGreen:#18F990;
-$PriBlue:#4764D6;
+@import "../../../_variables.scss";
 
 div{
     width: 100%;

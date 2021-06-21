@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.workout {
+  margin-inline: 5%;
+  overflow: scroll;
+  height: 100%;
+}
+
+.days {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: scroll;
+  background-color: #18F990;
+  color: white;
+}
+/*# sourceMappingURL=workout.css.map */

@@ -1,5 +1,5 @@
 import './style.css';
-import Sidebar from './common/sidebar'
+import Sidebar from './common/content/sidebar/sidebar'
 import ContentDisplay from './common/contentDisplay'
 import { useState } from 'react';
 

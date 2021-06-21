@@ -1,0 +1,18 @@
+@import "../../../_variables.scss";
+
+.workout{
+    margin-inline: 5%;
+    overflow: scroll;
+    height: 100%;
+}
+
+.days{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    background-color: $PriGreen;
+    color: white;
+
+}
